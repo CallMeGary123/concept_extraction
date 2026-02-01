@@ -1,3 +1,29 @@
+# Mini ConExion
+To run the original code refer to [Concept Extraction (ConExion)](#Concept-Extraction-(ConExion))
+
+## Overview
+This section regards the minimal implementation on ConExion and how use it.
+
+## Setup the Environment and Execution
+**Note this implementation only works in Google Colab due to its reliance on free Gemeni models provided in Google Colab.**
+
+Open the `conexion_mini.ipynb` located at `conexion_mini` folder in Google Colab and Run the cells in order **(The last 5 cells can be skipped since they just run and evaluate models)**.
+
+`extract_keyphrases` function structure:
+
+`def extract_keyphrases(database, model_name, num_samples, results_csv_name, shuffle=True, seed=77)`
+
+database = `"semeval2017"` or `"inspec"`
+
+model_name = any model listed by `ai.list_models()` is valid<br>for example `"google/gemini-2.5-flash"` or `"google/gemini-2.5-flash-lite"`
+
+num_sample = Number of sample being slected and proccessed
+
+results_csv_name = Name of the file which per-sample results get saved to <br> Example: `my_results`
+
+Shuffle = `True` or `False`<br> controls whether selected samples are random or not.
+
+Seed = Seed used for Shuffle for the purposes of reproducibility<br>Example: `77`
 
 # Concept Extraction (ConExion)
 
