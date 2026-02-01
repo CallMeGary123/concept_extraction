@@ -1,0 +1,5 @@
+model_name,dataset,num_samples,macro_p,macro_r,macro_f1,micro_p,micro_r,micro_f1
+google/gemini-2.5-flash-lite,semeval2017,100,0.372,0.445,0.387,0.357,0.44,0.394
+google/gemini-2.5-flash,semeval2017,100,0.315,0.322,0.305,0.317,0.313,0.315
+google/gemini-2.5-flash-lite,inspec,500,0.395,0.635,0.462,0.383,0.617,0.473
+google/gemini-2.5-flash,inspec,500,0.338,0.474,0.372,0.363,0.436,0.396
