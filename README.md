@@ -1,5 +1,5 @@
 # Mini ConExion
-To run the original code refer to [Concept Extraction (ConExion)](#Concept-Extraction-(ConExion))
+To run the original code refer to [Concept Extraction (ConExion)](#concept-extraction-conexion)
 
 ## Overview
 This section regards the minimal implementation on ConExion and how use it.
